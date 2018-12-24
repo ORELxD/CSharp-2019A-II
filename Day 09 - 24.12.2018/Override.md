@@ -307,3 +307,68 @@ namespace app
 }
 
 ```
+
+
+# sealed
+```csharp
+
+using System;
+namespace app
+{
+
+
+    class A
+    {
+        public virtual void Test()
+        {
+            Console.WriteLine("I am A");
+        }
+    }
+
+    class B : A
+    {
+
+        //every base class of this class - cannot override this function because it is sealed	
+        public sealed override void Test()
+        {
+            Console.WriteLine("I am B");
+        }
+    }
+
+    class C : B
+    {
+        public new void Test()
+        {
+            Console.WriteLine("I am C");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            A myA1 = new A();
+            A myA2 = new B();
+            A myA3 = new C();
+
+
+            myA1.Test();  //--> I am A
+            myA2.Test();  //--> I am B
+            myA3.Test();  //--> I am B
+
+
+            B myB1 = new B();
+            B myB2 = new C();
+
+            myB1.Test();  //--> I am B
+            myB2.Test();  //--> I am B
+
+            C myC = new C();
+
+            myC.Test();  //--> I am C
+
+        }
+    }
+}
+
+```
