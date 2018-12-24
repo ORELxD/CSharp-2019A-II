@@ -216,3 +216,98 @@ output:
 Sending to 0553335566, msg: 3
 Sending to 0551115566, msg: HAVE A PERFECT DAY
 ```
+
+
+# Generic class - implicit call
+```csharp
+namespace _02_generics
+{
+    class Sms<T>
+    {
+        public string PhoneAddressee { get; set; }
+        public T Msg { get; set; }
+
+
+        public Sms(T msg)
+        {
+            Msg=msg;
+        }
+        
+        public void SendSms()
+        {
+            System.Console.WriteLine($"Sending to {PhoneAddressee}, msg: {Msg}");
+        }
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Sms<int> sms1 = new Sms(3);
+            sms1.PhoneAddressee = "0553335566";
+            sms1.SendSms();
+
+            Sms<string> sms2 = new Sms("HAVE A PERFECT DAY");
+            sms2.PhoneAddressee = "0551115566";
+            sms2.SendSms();
+
+        }
+    }
+}
+
+```
+output:
+```
+Sending to 0553335566, msg: 3
+Sending to 0551115566, msg: HAVE A PERFECT DAY
+```
+
+
+
+# Generic class - explicit call
+```csharp
+namespace _02_generics
+{
+    class Sms<T>
+    {
+        public string PhoneAddressee { get; set; }
+        public T Msg { get; set; }
+
+
+        public Sms(T msg)
+        {
+            Msg=msg;
+        }
+        
+        public void SendSms()
+        {
+            System.Console.WriteLine($"Sending to {PhoneAddressee}, msg: {Msg}");
+        }
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Sms<int> sms1 = new Sms<int>(3);
+            sms1.PhoneAddressee = "0553335566";
+            sms1.SendSms();
+
+            Sms<string> sms2 = new Sms<string>("HAVE A PERFECT DAY");
+            sms2.PhoneAddressee = "0551115566";
+            sms2.SendSms();
+
+        }
+    }
+}
+
+```
+output:
+```
+Sending to 0553335566, msg: 3
+Sending to 0551115566, msg: HAVE A PERFECT DAY
+```
