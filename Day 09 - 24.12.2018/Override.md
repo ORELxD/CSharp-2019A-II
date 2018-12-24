@@ -328,7 +328,7 @@ namespace app
     class B : A
     {
 
-        //every base class of this class - cannot override this function because it is sealed	
+        //every sub class of this class - cannot override this function because it is sealed	
         public sealed override void Test()
         {
             Console.WriteLine("I am B");
