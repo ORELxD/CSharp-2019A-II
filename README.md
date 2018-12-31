@@ -1,1 +1,8 @@
-# Database-2018B-II
+* sealed class
+* abstract
+* interface
+***
+* namespace + access
+* dll
+* error handling
+  
