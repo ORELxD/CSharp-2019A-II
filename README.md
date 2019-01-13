@@ -3,7 +3,7 @@ in next lesson:
 * sealed class
 * abstract
 * interface
-* namespace + access
+* namespace + access modifiers
 * dll
 * error handling
 
