@@ -1,13 +1,3 @@
-
-in next lesson:
-* sealed class
-* abstract
-* interface
-* namespace + access modifiers
-* dll
-* error handling
-
-
 # C# Course content:
 ***
 ##### Contact mail : anakarpf6@gmail.com
