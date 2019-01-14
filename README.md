@@ -137,9 +137,10 @@
 * [Exception handling (try, catch, finally)](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/08_error%20handling/README.md)
 
 ## Review for final exam
-* [oop sum](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/oop%20-%20full%20overview.pdf)
-* []()
-* []()
+* [oop summarize](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/oop%20-%20full%20overview.pdf)
+* [test demo - without answers](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Exam%20Examples/test%20demo%20-%20without%20answers.pdf)
+* [test demo - with answers](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Exam%20Examples/test%20demo%20-%20with%20answers.pdf)
+
 
 
   
