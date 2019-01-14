@@ -111,5 +111,35 @@
 * Events with Generic delegates
     * [example generic delegate event](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2010%20-%2031.12.2018/09_example%20of%20car%20and%20generic%20delegate%20event/program.cs) ([see the result of code](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2010%20-%2031.12.2018/09_example%20of%20car%20and%20generic%20delegate%20event/result.png))
     * [class task - events and generics](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2011%20-%2007.01.2019/oop%20%2B%20events%20-%20class%20task.pdf) and [task result](https://github.com/AnnaKarpf/CSharp-2019A-II/tree/master/Day%2011%20-%2007.01.2019/00_class%20task%20result/00_class%20task%20result) ([see the result of code](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2011%20-%2007.01.2019/result.png))
+   
+   
+* [sealed class](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/00_sealed%20class/README.md)
+
+* Abstract
+   * [abstract class and abstaract functions](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/01_abstract%20class/README.md)
+   * [class task - abstract](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/02_abstract%20-%20class%20task/class%20task.png)
+   
+* Interface
+   * [what is interface + interface VS abstract](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/03_interface/03_interface.pdf)
+   * [implementing interface](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/03_interface/README.md)
+   * [class task - interface](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/04_interface%20-%20class%20task/ClassTask.md)
+   
+* Namespace
+   * [what is namespace](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/05_namespace/README.md)
+   * [using namespace and nested-namespace](https://github.com/AnnaKarpf/CSharp-2019A-II/tree/master/Day%2012%20-%2014.01.2019/05_namespace/00_namespace/00_namespace)
+
+* Dll
+   * [how to create a console app with a dll](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/06_DLL/01_how%20to%20create%20a%20dll/README.md)
+   * [example for a console app with a dll](https://github.com/AnnaKarpf/CSharp-2019A-II/tree/master/Day%2012%20-%2014.01.2019/06_DLL/00_example)
+   
+   
+* [Accessibility Levels](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/07_Access%20modifiers/Accessibility%20Levels.pdf)
+* [Exception handling (try, catch, finally)](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/08_error%20handling/README.md)
+
+## Review for final exam
+* [oop sum](https://github.com/AnnaKarpf/CSharp-2019A-II/blob/master/Day%2012%20-%2014.01.2019/oop%20-%20full%20overview.pdf)
+* []()
+* []()
+
 
   
